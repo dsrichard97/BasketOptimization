@@ -46,5 +46,16 @@ This project was driven by the observation that **in-basket shoppers** (e.g., re
 ## 🚀 Getting Started
 
 ```bash
-# 1.
+# 1. Clone the repository
+git clone https://github.com/your-username/BasketOptimization.git
+cd BasketOptimization
 
+# 2. Create virtual environment and install dependencies
+python -m venv venv
+source venv/bin/activate  # or venv\Scripts\activate on Windows
+pip install -r requirements.txt
+
+# 3. Run Jupyter Notebook or main script
+jupyter notebook basket_model.ipynb
+# OR
+python forecast_engine.py
